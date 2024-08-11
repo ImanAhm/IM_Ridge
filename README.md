@@ -7,11 +7,17 @@ pip install IM_Ridge
 #Import Necessary Functions:
 
 from IM_Metrics import Save_Metrics
+
 from IM_Ridge import Ridge
+
 import pandas as pd
-import numpy as np  
+
+import numpy as np 
+
 from sklearn.model_selection import train_test_split
+
 from IM_Metrics import Save_Metrics
+
 
 df = pd.read_excel('Data.xlsx')
 
